@@ -9,9 +9,8 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logoo.png';
 import { Link } from 'react-scroll';
-
+import img1 from '../assets/Снимок экрана 2023-08-25 100320.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -22,7 +21,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>
-        <h1></h1>
+        <h1>  Abdulloh </h1>
       </div>
 
       {/* menu */}
