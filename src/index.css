@@ -8,10 +8,10 @@
     body {
         @apply font-[Raleway];
     }
-    
-    
-    
-    
+
+
+
+
     li {
         @apply px-4;
         @apply cursor-pointer
