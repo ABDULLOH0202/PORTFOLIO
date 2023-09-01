@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import img1 from '../assets/me.jpg'
+
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f] '>
@@ -28,7 +28,6 @@ const Home = () => {
           </button>
         </div>
       </div>
-      {/* <mg className='hidden sm:block sm:absolute sm:w-[500px]' src={img1} alt="" /> */}
 
     </div>
   );
